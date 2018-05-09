@@ -4,9 +4,9 @@
         <div class="card white-block">
             <h1 v-lang.headers.hello></h1>
             <ul>
-                <li v-for="highlight of highlights">{{ highlight }}</li>
+                <li v-for="(highlight, index) of highlights" :key="`hello-${index}`">{{ highlight }} <router-link v-if="index == 4" to="resume" v-lang.resumeLink>(watch my resume)</router-link></li>
+
             </ul>
-            <!-- <p v-lang.texts.helloText></p> -->
         </div>
     </section>
 </template>
@@ -16,16 +16,6 @@ import Polaroid from '@/components/elements/Polaroid';
 
 export default {
     name: 'Hello',
-    data () {
-        return {
-            /*highlights: [
-                'Full-stack Web developer',
-                'Software developer',
-                'Based in Russia',
-                'Currently unemployed'
-            ]*/
-        }
-    },
     computed: {
         highlights() {
             return this.translate('highlights');

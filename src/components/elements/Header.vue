@@ -5,7 +5,6 @@
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 h2 {
-    font-family: Overpass,sans-serif;
     color: #161b20;
     margin: 0 0 24px;
     font-size: 1.2em;

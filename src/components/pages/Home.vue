@@ -1,6 +1,5 @@
 '<template>
     <div class="wrapper">
-        <button type="button" class="language-button" @click="language = otherLanguage"><i class="fas fa-globe"></i> {{languagesText[otherLanguage]}}</button>
         <Hello />
         <About />
         <Projects />
@@ -21,19 +20,6 @@ export default {
         About,
         Contacts,
         Projects
-    },
-    data() {
-        return {
-            languagesText: {
-                ru: "РУС",
-                en: "ENG"
-            }
-        }
-    },
-    computed: {
-        otherLanguage() {
-            return this.language == 'ru' ? 'en' : 'ru';
-        }
     }
 }
 </script>
@@ -59,35 +45,9 @@ section {
     border-bottom: 1px solid transparent;
 }
 
-.language-button {
-    font-family: inherit;
-    position: fixed;
-    background: none;
-    border: none;
-    padding: 10px;
-    top: 20px;
-    right: 20px;
-    color: #2c3e50;
-    cursor: pointer;
-    z-index: 999;
-}
-
-i {
-    margin-right: 6px;
-}
-
 @media only screen and (max-width: 1000px) {
     section {
         padding: 20px 0;
-    }
-}
-
-@media only screen and (max-width: 600px) {
-    .language-button {
-        background-color: white;
-        border-radius: 50em;
-        box-shadow: 0px 70px 80px -40px rgba(0, 0, 0, 0.4), 0px 5px 20px rgba(0, 0, 0, 0.1);
-        box-shadow: 0px 80px 110px -40px rgba(86, 119, 119, 0.68), 0px 5px 20px rgba(0, 0, 0, 0.1);
     }
 }
 

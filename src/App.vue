@@ -1,17 +1,22 @@
 <template>
     <div id="app">
+        <LanguageButton />
         <router-view/>
     </div>
 </template>
 
 <script>
+import LanguageButton from '@/components/elements/LanguageButton';
 export default {
-    name: 'App'
+    name: 'App',
+    components: { LanguageButton }
 }
 </script>
 
 <style>
-html {
+
+* {
+	box-sizing: border-box;
 }
 
 body {
@@ -39,12 +44,20 @@ body {
 }
 
 h2, h3 {
-    font-family: Overpass, Roboto, Open Sans, sans-serif;
+    font-family: "Rubik", -apple-system, "San Francisco", "Segoe UI", "Helvetica Neue", sans-serif;
 }
 
 @media only screen and (max-width: 1000px) {
     body {
         background-image: none;
+    }
+}
+
+@media print {
+    body {
+        background: none;
+        padding: 0;
+        margin: 0;
     }
 }
 

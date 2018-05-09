@@ -64,7 +64,7 @@ article:hover img {
 
 .title {
     color: #161b20;
-    font-weight: 200;
+    font-weight: 400;
     font-size: 1.3em;
     position: relative;
     display: inline-block;

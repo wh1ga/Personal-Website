@@ -1,8 +1,9 @@
 import Vue from 'vue';
 import MultiLanguage from 'vue-multilanguage';
+import resume from './resume';
 
 Vue.use(MultiLanguage, {
-    default: 'ru',
+    default: 'en',
     en: {
         headers: {
             hello: `Hi, I am <strong>Tim Shilov</strong>`,
@@ -20,11 +21,14 @@ Vue.use(MultiLanguage, {
         highlights: {
             0: 'Full Stack Web developer',
             1: 'Software developer',
-            2: 'Based in Russia',
-            3: 'Currently unemployed'
+            2: 'Always learning',
+            3: 'Based in Russia',
+            4: 'Looking for a job'
         },
         photoSign: `Tim, Jul '17`,
-        visitLink: `Visit`
+        visitLink: `Visit`,
+        resumeLink: `(watch my resume)`,
+        resume: resume.en
     },
     ru: {
         headers: {
@@ -43,10 +47,13 @@ Vue.use(MultiLanguage, {
         highlights: {
             0: 'Full Stack веб-разработчик',
             1: 'Программист',
-            2: 'Живу в России',
-            3: 'Временно безработный'
+            2: 'Постоянно учусь',
+            3: 'Живу в России',
+            4: 'Ищу работу'
         },
         photoSign: `Тима, Июль 2017`,
-        visitLink: `Посетить`
+        visitLink: `Посетить`,
+        resumeLink: `(смотреть моё резюме)`,
+        resume: resume.ru
     },
 })

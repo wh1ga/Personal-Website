@@ -3,8 +3,8 @@
         <Header v-lang.headers.social></Header>
         <p v-lang.texts.socialText></p>
         <div class="contacts-container">
-            <a href="https://github.com/wh1ga" target="_blank" class="github-link"><i class="fab fa-github"></i>GitHub</a>
-            <a href="https://vk.com/wh1ga" target="_blank" class="vk-link"><i class="fab fa-vk"></i>VK</a>
+            <a href="https://github.com/TimShilov" target="_blank" class="github-link"><i class="fab fa-github"></i>GitHub</a>
+            <a href="https://vk.com/tim.shilov" target="_blank" class="vk-link"><i class="fab fa-vk"></i>VK</a>
             <a href="mailto:wh1ga123@gmail.com" target="_blank" class="email-link"><i class="fas fa-at"></i></i>E-mail</a>
         </div>
 
