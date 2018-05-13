@@ -123,7 +123,7 @@ li::before {
     }
     100% {
         opacity: 1;
-        transform: translateY(0) translateX(0) rotate(-2deg);
+        transform: auto;
     }
 }
 
@@ -134,7 +134,7 @@ li::before {
     }
     100% {
         opacity: 1;
-        transform: translateY(0) translateX(0) rotate(3deg);
+        transform: auto;
     }
 }
 
