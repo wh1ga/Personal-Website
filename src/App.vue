@@ -29,6 +29,8 @@ body {
     font-size: 20px;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+
+    min-width: 400px;
 }
 
 #app {
@@ -45,6 +47,17 @@ body {
 
 h2, h3 {
     font-family: "Rubik", -apple-system, "San Francisco", "Segoe UI", "Helvetica Neue", sans-serif;
+}
+
+@keyframes move-in {
+    0% {
+        opacity: 0;
+        transform: translateY(100px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
 
 @media only screen and (max-width: 1000px) {

@@ -11,7 +11,7 @@
                         <ResumeContact icon="fas fa-phone">+7 (996) 940-41-45</ResumeContact>
                         <ResumeContact icon="fas fa-envelope">wh1ga123@gmail.com</ResumeContact>
                         <ResumeContact icon="fas fa-globe">https://im-brand.ru</ResumeContact>
-                        <ResumeContact icon="fab fa-vk">vk.com/tim.shilov</ResumeContact>
+                        <ResumeContact icon="fab fa-skype">wh11ga</ResumeContact>
                     </div>
 
                 </div>
@@ -165,17 +165,6 @@ ul li:last-child {
     margin: 0 0 4px 203px;
     font-size: .8em;
     font-style: italic;
-}
-
-@keyframes move-in {
-    0% {
-        opacity: 0;
-        transform: translateY(100px);
-    }
-    100% {
-        opacity: 1;
-        transform: translateY(0);
-    }
 }
 
 @media print {

@@ -1,10 +1,10 @@
 <template>
     <section class="hello">
-        <Polaroid class="photo"/>
+        <Polaroid id="photo"/>
         <div class="card white-block">
             <h1 v-lang.headers.hello></h1>
             <ul>
-                <li v-for="(highlight, index) of highlights" :key="`hello-${index}`">{{ highlight }} <router-link v-if="index == 4" to="resume" v-lang.resumeLink>(watch my resume)</router-link></li>
+                <li v-for="(highlight, index) of highlights" :key="`hello-${index}`">{{ highlight }} <router-link v-if="index == 4" to="resume" v-lang.resumeLink class="resumeLink">(watch my resume)</router-link></li>
 
             </ul>
         </div>
@@ -38,12 +38,13 @@ export default {
     width: 100%;
 }
 
-.photo {
+#photo {
     transform: rotate(3deg);
-    margin-left: -20px;
+    margin-left: -12px;
     flex-shrink: 0;
     transition: transform 0.2s ease-out;
     z-index:2;
+    animation: photo-flip-in .2s ease-in-out forwards;
 }
 
 .card {
@@ -53,8 +54,9 @@ export default {
     flex-direction: column;
     transform: rotate(-2deg);
     box-sizing: border-box;
-    transition: transform 0.2s ease-out;
+    transition: transform .2s ease-out;
     margin-left: -8px;
+    animation: card-flip-in .2s ease-in-out forwards;
 }
 
 h1 {
@@ -94,17 +96,46 @@ li::before {
         min-height: auto;
     }
 
-    .photo {
+    #photo {
         transform: rotate(0);
         margin: 0 auto 20px auto;
+        width: 420px;
     }
+
     .card {
         z-index: 2;
         transform: rotate(0);
         height: auto;
         padding-bottom: 20px;
-        width: 400px;
+        width: 420px;
         margin: 0 auto;
     }
+
+    .resumeLink {
+        display: none;
+    }
 }
+
+@keyframes card-flip-in {
+    0% {
+        opacity: 0;
+        transform: translateY(50px) translateX(-0px) rotate(-5deg);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0) translateX(0) rotate(-2deg);
+    }
+}
+
+@keyframes photo-flip-in {
+    0% {
+        opacity: 0;
+        transform: translateY(50px) translateX(0px) rotate(5deg);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0) translateX(0) rotate(3deg);
+    }
+}
+
 </style>

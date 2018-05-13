@@ -130,7 +130,7 @@ a:hover span.arrow {
 }
 
 @media only screen and (max-width: 1000px) {
-    dim {
+    .dim {
         opacity: 0.7;
     }
 
