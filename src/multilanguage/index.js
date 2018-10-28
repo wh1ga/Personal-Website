@@ -20,10 +20,10 @@ Vue.use(MultiLanguage, {
         },
         highlights: {
             0: 'Full Stack Web developer',
-            1: 'Software developer',
+            1: 'Independent developer',
             2: 'Always learning',
             3: 'Based in Russia',
-            4: 'Looking for a job'
+            // 4: 'Looking for a job'
         },
         photoSign: `Tim, Jul '17`,
         visitLink: `Visit`,
@@ -40,7 +40,7 @@ Vue.use(MultiLanguage, {
         texts: {
             helloText: `To start with I want to say that I have a very bold goal: I want to be incredibly good at solving problems with technologies (primarily software) and being able to teach others to reach even higher levels.`,
             socialText: `Буду рад знакомству!`,
-            about1: `Я программист с огромным интересом к технологиям. Мне нравится создавать <strong>цифровые продукты</strong>, которые делают жизнь людей более приятной.`,
+            about1: `Я программист с огромным интересом к технологиям. Мне нравится создавать <strong>цифровые продукты</strong>, которые делают жизнь людей приятнее.`,
             about2: `С детских лет я возился с различными языками программирования. Мои навыки варьируются от разработки мобильных и настольных приложений до создания сайтов и скриптов для микроконтроллеров.`,
             about3: `Я <strong>больше программист, чем дизайнер</strong>, но я люблю создавать пользовательские интерфейсы и иногда я себя удивляю. В свободное время я работаю над различными проектами. Вы можете найти некоторые из них ниже!`
         },
@@ -49,7 +49,7 @@ Vue.use(MultiLanguage, {
             1: 'Программист',
             2: 'Постоянно учусь',
             3: 'Живу в России',
-            4: 'Ищу работу'
+            // 4: 'Ищу работу'
         },
         photoSign: `Тима, Июль 2017`,
         visitLink: `Посетить`,

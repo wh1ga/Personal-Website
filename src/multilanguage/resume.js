@@ -44,9 +44,9 @@ export default {
         skills: {
             0: "Creating static websites using HTML 5 and CSS 3",
             1: "Creating interactive websites using JavaScript (including Vue.js, React)",
-            2: "Creating backend Web API's using PHP, MySQL (currently learning Laravel framework)",
+            2: "Creating backend Web API's using PHP and Node.js",
             3: "Creating Progressive Web Apps and offline-first Web Apps",
-            4: "Using Node.js and Webpack",
+            4: "Working with MySQL databases",
             5: "Version control using Git"
         },
         languages: {
@@ -103,9 +103,9 @@ export default {
         skills: {
             0: "Создание статических веб-сайтов с использованием HTML 5 и CSS 3",
             1: "Создание интерактивных веб-сайтов с использованием JavaScript (включая Vue.js, React)",
-            2: "Создание серверных Web API на PHP, MySQL (в данный момент изучаю фреймворк Laravel)",
+            2: "Создание серверных Web API на PHP и Node.js",
             3: "Создание прогрессивных веб-приложений (PWA) и оффлайн веб-приложений",
-            4: "Использование Node.js и Webpack",
+            4: "Работа с базами данных MySQL",
             5: "Использование систем контроля версий (Git)"
         },
         languages: {
