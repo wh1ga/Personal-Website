@@ -10,7 +10,9 @@
                     <div class="contacts">
                         <ResumeContact icon="fas fa-phone">+7 (996) 940-41-45</ResumeContact>
                         <ResumeContact icon="fas fa-envelope">tim@shilov.dev</ResumeContact>
-                        <ResumeContact icon="fas fa-globe">Velikiy Novgorod, Russia (Open for relocation)</ResumeContact>
+                        <ResumeContact icon="fab fa-skype">wh11ga</ResumeContact>
+                        <ResumeContact icon="fas fa-map-marker">Velikiy Novgorod, Russia (Open for relocation)</ResumeContact>
+                        <ResumeContact icon="fab fa-github">https://github.com/TimShilov</ResumeContact>
                     </div>
 
                 </div>
@@ -108,13 +110,13 @@ export default {
     display: flex;
     flex-wrap: wrap;
     height: 100%;
-    flex: 1;
+    flex: 2;
     justify-content: space-between;
 }
 
 .about {
     margin-bottom: 20px;
-    margin-top: 0;
+    margin-top: 15px;
 }
 
 .margin-left {

@@ -78,7 +78,7 @@ export default {
             "Gulp, Webpack, Babel",
             "Progressive Web Apps, offline-first Web Apps, Service Worker",
             "Backend services: PHP, Node.js, Express.js",
-            "Databases: MySQL, PostgreSQL (Fluent)",
+            "Databases: MySQL, PostgreSQL (fluent)",
             "Testing: Cypress",
         ],
         languages: [
@@ -116,9 +116,12 @@ export default {
                 worktitle: `Ведущий разработчик`,
                 dates: `04.2018 - н.в.`,
                 highlights: [
-                    "Full Stack разработка приложения. (Node.js, MySQL, HTML5, JS ES6+, CSS3, jQuery)",
+                    "Full Stack разработка приложения. (Node.js, MySQL, HTML5, JS ES6+, SCSS, jQuery)",
                     "Провёл полное исследование безопасности кодовой базы.",
-                    "Учавствую в принятии решений по архитектуре приложений.",
+                    "Оптимизировал клиентский код. (Gulp, Babel, SCSS)",
+                    "Поддержка серверов и решение серверных проблем. (Google Cloud, DevOps)",
+                    "Сделал множество архитектурных улучшений и отрефакторил множество участков кода.",
+                    "Учавстие в принятии решений по архитектуре приложений.",
                     "Ответственный за интервью кандидатов в разработчики.",
                     "Ответственный за код-ревью.",
                 ]
