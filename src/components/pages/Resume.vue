@@ -19,8 +19,8 @@
                     <ResumeHeader icon="fas fa-briefcase">{{ resume.headers.experience }}</ResumeHeader>
 
                     <div v-for="experience in resume.experience">
-                        <ResumeSubheader :dates="experience.dates" bold="true">{{ experience.worktitle }}</ResumeSubheader>
-                        <p class="workplace">{{ experience.place }}</p>
+                        <ResumeSubheader :dates="experience.dates" bold="true">{{ experience.place }}</ResumeSubheader>
+                        <p class="workplace">{{ experience.worktitle }}</p>
                         <ul>
                             <li v-for="text in experience.highlights">{{text}}</li>
                         </ul>
@@ -32,8 +32,8 @@
 
                     <!-- EDUCATION -->
                     <ResumeHeader icon="fas fa-graduation-cap">{{ resume.headers.education }}</ResumeHeader>
-                    <ResumeSubheader :dates="resume.education.dates" bold="true">{{ resume.education.title }}</ResumeSubheader>
-                    <p class="workplace">{{ resume.education.place }}</p>
+                    <ResumeSubheader :dates="resume.education.dates" bold="true">{{ resume.education.place }}</ResumeSubheader>
+                    <p class="workplace">{{ resume.education.title }}</p>
                     <ul>
                         <li v-for="text in resume.education.highlights">{{text}}</li>
                     </ul>

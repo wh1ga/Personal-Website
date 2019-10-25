@@ -17,16 +17,18 @@ export default {
                 dates: `2019-04 - present`,
                 highlights: [
                     "Full Stack Web Development. (PHP, MySQL, HTML5, JS ES6+, CSS3, jQuery)",
-                    "Development of iOS and Android apps. (Java, Swift 5)",
+                    "Development of iOS and Android hybrid apps. (Java, Swift 5, WebView)",
                 ]
             },
             {
-                place: `Affluent, Inc., USA (remotely) - A startup is developing an aggregator of partner and advertising networks.`,
+                place: `Affluent, Inc., USA (remotely) - Aggregator of partner and advertising networks.`,
                 worktitle: `Lead Developer`,
                 dates: `2018-04 - present`,
                 highlights: [
-                    "Full Stack Web Development. (Node.js, MySQL, HTML5, JS ES6+, CSS3, jQuery)",
+                    "Full Stack Web Development. (Node.js, MySQL, HTML5, JS ES6+, SCSS, jQuery)",
                     "Made full codebase security audition.",
+                    "Optimized frontend code (Gulp, Babel, SCSS)",
+                    "Maintaining servers and solving deployment problems (Google Cloud, DevOps)",
                     "Involved in making architectural decisions.",
                     "Involved in interviewing developer candidates.",
                     "Responsible for code reviews.",
@@ -57,7 +59,7 @@ export default {
                 worktitle: `Technical Support Specialist`,
                 dates: `2014-08 - 2018-04`,
                 highlights: [
-                    "Created digital accounting system for the company. (PHP, MySQL, ReactJS, Telegram Bot)",
+                    "Created digital accounting system for the company. (PHP, MySQL, React, Telegram Bot)",
                     "Upgraded the specialized software used by the company.",
                     "Responsible for learning new hardware and software and training employees.",
                     "Responsible for managing teams of equipment installers.",
@@ -71,11 +73,11 @@ export default {
             highlights: {}
         },
         skills: [
-            "Static websites: HTML 5, CSS 3",
-            "Interactive websites: JavaScript, jQuery, Vue.js, React",
-            "Progressive Web Apps, offline-first Web Apps",
-            "Backend services: PHP, Node.js, Express.js, ",
-            "Databases: MySQL, PostgreSQL",
+            "HTML 5, CSS 3, SCSS, JavaScript ES6+, TypeScript (fluent), jQuery, Vue.js, React",
+            "Gulp, Webpack, Babel",
+            "Progressive Web Apps, offline-first Web Apps, Service Worker",
+            "Backend services: PHP, Node.js, Express.js",
+            "Databases: MySQL, PostgreSQL (Fluent)",
             "Testing: Cypress",
         ],
         languages: [
@@ -109,7 +111,7 @@ export default {
                 ]
             },
             {
-                place: `Affluent, Inc., США (удалённо) - Стартап, разрабатывающий аггрегатор данных с маркетинговых платформ.`,
+                place: `Affluent, Inc., США (удалённо) - Аггрегатор данных с маркетинговых платформ.`,
                 worktitle: `Ведущий разработчик`,
                 dates: `04.2018 - н.в.`,
                 highlights: [
@@ -145,7 +147,7 @@ export default {
                 worktitle: `Специалист информационно-технической поддержки`,
                 dates: `08.2014 - 04.2018`,
                 highlights: [
-                    "Создал цифровую систему учёта в компании. (PHP, MySQL, ReactJS, Telegram Bot)",
+                    "Создал цифровую систему учёта в компании. (PHP, MySQL, React, Telegram Bot)",
                     "Доработал специализированное ПО, используемое в компании.",
                     "Ответственный за изучение нового оборудования и ПО и обучение сотрудников.",
                     "Ответственный за руководство группами установщиков оборудования."
@@ -159,11 +161,11 @@ export default {
             highlights: {}
         },
         skills: [
-            "Cтатические веб-сайты: HTML 5, CSS 3",
-            "Интерактивные веб-сайты: JavaScript, jQuery, Vue.js, React",
-            "Прогрессивные веб-приложения (PWA), оффлайн веб-приложения",
+            "HTML 5, CSS 3, SCSS, JavaScript ES6+, TypeScript (бегло), jQuery, Vue.js, React",
+            "Gulp, Webpack, Babel",
+            "Прогрессивные веб-приложения (PWA), оффлайн веб приложения, Service Worker",
             "Серверные службы: PHP, Node.js, Express.js",
-            "Базы данных: MySQL, PostgreSQL",
+            "Базы данных: MySQL, PostgreSQL (бегло)",
             "Тестирование: Cypress",
         ],
         languages: [
