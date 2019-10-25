@@ -27,8 +27,9 @@ export default {
                 highlights: [
                     "Full Stack Web Development. (Node.js, MySQL, HTML5, JS ES6+, SCSS, jQuery)",
                     "Made full codebase security audition.",
-                    "Optimized frontend code (Gulp, Babel, SCSS)",
-                    "Maintaining servers and solving deployment problems (Google Cloud, DevOps)",
+                    "Optimized frontend code. (Gulp, Babel, SCSS)",
+                    "Maintaining servers and solving deployment problems. (Google Cloud, DevOps)",
+                    "Made multiple architectural improvements refactoring big parts of codebase.",
                     "Involved in making architectural decisions.",
                     "Involved in interviewing developer candidates.",
                     "Responsible for code reviews.",
