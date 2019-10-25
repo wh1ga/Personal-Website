@@ -9,16 +9,38 @@
                     </div>
                     <div class="contacts">
                         <ResumeContact icon="fas fa-phone">+7 (996) 940-41-45</ResumeContact>
-                        <ResumeContact icon="fas fa-envelope">wh1ga123@gmail.com</ResumeContact>
-                        <ResumeContact icon="fas fa-globe">https://im-brand.ru</ResumeContact>
-                        <ResumeContact icon="fab fa-skype">wh11ga</ResumeContact>
+                        <ResumeContact icon="fas fa-envelope">tim@shilov.dev</ResumeContact>
+                        <ResumeContact icon="fas fa-globe">https://shilov.dev</ResumeContact>
+                        <ResumeContact icon="fab fa-skype">wh1ga123@gmail.com</ResumeContact>
                     </div>
 
                 </div>
                 <p class="about margin-left" v-lang.resume.about></p>
                 <div class="timeline">
-                    <!-- EXPERIENCE, second place -->
                     <ResumeHeader icon="fas fa-briefcase">{{ resume.headers.experience }}</ResumeHeader>
+
+                    <!-- EXPERIENCE, fifth place -->
+                    <ResumeSubheader :dates="resume.experience5.dates" bold="true">{{ resume.experience5.worktitle }}</ResumeSubheader>
+                    <p class="workplace">{{ resume.experience5.place }}</p>
+                    <ul>
+                        <li v-for="text in resume.experience5.highlights">{{text}}</li>
+                    </ul>
+
+                    <!-- EXPERIENCE, fourth place -->
+                    <ResumeSubheader :dates="resume.experience4.dates" bold="true">{{ resume.experience4.worktitle }}</ResumeSubheader>
+                    <p class="workplace">{{ resume.experience4.place }}</p>
+                    <ul>
+                        <li v-for="text in resume.experience4.highlights">{{text}}</li>
+                    </ul>
+
+                    <!-- EXPERIENCE, third place -->
+                    <ResumeSubheader :dates="resume.experience3.dates" bold="true">{{ resume.experience3.worktitle }}</ResumeSubheader>
+                    <p class="workplace">{{ resume.experience3.place }}</p>
+                    <ul>
+                        <li v-for="text in resume.experience3.highlights">{{text}}</li>
+                    </ul>
+
+                    <!-- EXPERIENCE, second place -->
                     <ResumeSubheader :dates="resume.experience2.dates" bold="true">{{ resume.experience2.worktitle }}</ResumeSubheader>
                     <p class="workplace">{{ resume.experience2.place }}</p>
                     <ul>
@@ -32,6 +54,10 @@
                         <li v-for="text in resume.experience1.highlights">{{text}}</li>
                     </ul>
 
+                    <!-- SKILLS -->
+                    <ResumeHeader icon="fas fa-puzzle-piece">{{ resume.headers.skills }}</ResumeHeader>
+                    <ResumeSubheader v-for="(text, index) in resume.skills" :key="`skill-${index}`">{{text}}</ResumeSubheader>
+
                     <!-- EDUCATION -->
                     <ResumeHeader icon="fas fa-graduation-cap">{{ resume.headers.education }}</ResumeHeader>
                     <ResumeSubheader :dates="resume.education.dates" bold="true">{{ resume.education.title }}</ResumeSubheader>
@@ -39,10 +65,6 @@
                     <ul>
                         <li v-for="text in resume.education.highlights">{{text}}</li>
                     </ul>
-
-                    <!-- SKILLS -->
-                    <ResumeHeader icon="fas fa-puzzle-piece">{{ resume.headers.skills }}</ResumeHeader>
-                    <ResumeSubheader v-for="(text, index) in resume.skills" :key="`skill-${index}`">{{text}}</ResumeSubheader>
 
                     <!-- LANGUAGES -->
                     <ResumeHeader icon="fas fa-globe">{{ resume.headers.languages }}</ResumeHeader>

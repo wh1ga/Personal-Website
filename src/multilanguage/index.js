@@ -14,14 +14,14 @@ Vue.use(MultiLanguage, {
         texts: {
             helloText: `To start with I want to say that I have a very bold goal: I want to be incredibly good at solving problems with technologies (primarily software) and being able to teach others to reach even higher levels.`,
             socialText: `Say hi!`,
-            about1: `I'm a software developer with a strong interest in technology. I like creating <strong>digital products</strong> that make people's lives more enjoyable.`,
+            about1: `I'm a software engineer with a strong interest in technology. I like creating <strong>digital products</strong> that make people's lives more enjoyable.`,
             about2: `Ever since I was young I've been messing around with programming languages. My skills vary from developing mobile and desktop apps, creating websites and writing scripts for microcontrollers.`,
             about3: `I'm <strong>more of a developer than a designer</strong>, but I do like to create user interfaces and sometimes surprise myself. In my spare time you'll find me working on side projects, you can find some of them below!`
         },
         highlights: {
             0: 'Full Stack Web developer',
             1: 'Independent developer',
-            2: 'Always learning',
+            2: 'I like to solve complex problems',
             3: 'Based in Russia',
             // 4: 'Looking for a job'
         },
@@ -46,8 +46,8 @@ Vue.use(MultiLanguage, {
         },
         highlights: {
             0: 'Full Stack веб-разработчик',
-            1: 'Программист',
-            2: 'Постоянно учусь',
+            1: 'Независимый разработчик',
+            2: 'Мне нравится решать сложные задачи',
             3: 'Живу в России',
             // 4: 'Ищу работу'
         },
