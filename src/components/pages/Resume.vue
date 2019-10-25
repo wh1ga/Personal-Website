@@ -10,8 +10,7 @@
                     <div class="contacts">
                         <ResumeContact icon="fas fa-phone">+7 (996) 940-41-45</ResumeContact>
                         <ResumeContact icon="fas fa-envelope">tim@shilov.dev</ResumeContact>
-                        <ResumeContact icon="fas fa-globe">https://shilov.dev</ResumeContact>
-                        <ResumeContact icon="fab fa-skype">wh1ga123@gmail.com</ResumeContact>
+                        <ResumeContact icon="fas fa-globe">Velikiy Novgorod, Russia (Open for relocation)</ResumeContact>
                     </div>
 
                 </div>
@@ -19,40 +18,13 @@
                 <div class="timeline">
                     <ResumeHeader icon="fas fa-briefcase">{{ resume.headers.experience }}</ResumeHeader>
 
-                    <!-- EXPERIENCE, fifth place -->
-                    <ResumeSubheader :dates="resume.experience5.dates" bold="true">{{ resume.experience5.worktitle }}</ResumeSubheader>
-                    <p class="workplace">{{ resume.experience5.place }}</p>
-                    <ul>
-                        <li v-for="text in resume.experience5.highlights">{{text}}</li>
-                    </ul>
-
-                    <!-- EXPERIENCE, fourth place -->
-                    <ResumeSubheader :dates="resume.experience4.dates" bold="true">{{ resume.experience4.worktitle }}</ResumeSubheader>
-                    <p class="workplace">{{ resume.experience4.place }}</p>
-                    <ul>
-                        <li v-for="text in resume.experience4.highlights">{{text}}</li>
-                    </ul>
-
-                    <!-- EXPERIENCE, third place -->
-                    <ResumeSubheader :dates="resume.experience3.dates" bold="true">{{ resume.experience3.worktitle }}</ResumeSubheader>
-                    <p class="workplace">{{ resume.experience3.place }}</p>
-                    <ul>
-                        <li v-for="text in resume.experience3.highlights">{{text}}</li>
-                    </ul>
-
-                    <!-- EXPERIENCE, second place -->
-                    <ResumeSubheader :dates="resume.experience2.dates" bold="true">{{ resume.experience2.worktitle }}</ResumeSubheader>
-                    <p class="workplace">{{ resume.experience2.place }}</p>
-                    <ul>
-                        <li v-for="text in resume.experience2.highlights">{{text}}</li>
-                    </ul>
-
-                    <!-- EXPERIENCE, first place -->
-                    <ResumeSubheader :dates="resume.experience1.dates" bold="true">{{ resume.experience1.worktitle }}</ResumeSubheader>
-                    <p class="workplace">{{ resume.experience1.place }}</p>
-                    <ul>
-                        <li v-for="text in resume.experience1.highlights">{{text}}</li>
-                    </ul>
+                    <div v-for="experience in resume.experience">
+                        <ResumeSubheader :dates="experience.dates" bold="true">{{ experience.worktitle }}</ResumeSubheader>
+                        <p class="workplace">{{ experience.place }}</p>
+                        <ul>
+                            <li v-for="text in experience.highlights">{{text}}</li>
+                        </ul>
+                    </div>
 
                     <!-- SKILLS -->
                     <ResumeHeader icon="fas fa-puzzle-piece">{{ resume.headers.skills }}</ResumeHeader>
@@ -133,9 +105,11 @@ export default {
 }
 
 .contacts {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    display: flex;
+    flex-wrap: wrap;
     height: 100%;
+    flex: 1;
+    justify-content: space-between;
 }
 
 .about {
@@ -153,6 +127,7 @@ export default {
 
 .resume-header {
     flex: 1;
+    flex-shrink: 0;
 }
 
 .timeline {

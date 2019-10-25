@@ -15,11 +15,12 @@ p {
     position: relative;
     display: flex;
     align-items: center;
+    flex-shrink: 0;
     color: #161b20;
     font-size: .8em;
     z-index: 2;
     margin: 0;
-    padding: 8px 5px 0 0;
+    padding: 8px 10px 0 0;
 }
 
 i {
