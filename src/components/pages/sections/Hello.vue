@@ -4,7 +4,10 @@
         <div class="card white-block">
             <h1 v-lang.headers.hello></h1>
             <ul>
-                <li v-for="(highlight, index) of highlights" :key="`hello-${index}`">{{ highlight }} <router-link v-if="index == 4" to="resume" v-lang.resumeLink class="resumeLink">(watch my resume)</router-link></li>
+                <li v-for="(highlight, index) of highlights" :key="`hello-${index}`">
+                    {{ highlight }}
+                    <router-link v-if="index == 4" to="resume" v-lang.resumeLink class="resumeLink">(watch my resume)</router-link>
+                </li>
 
             </ul>
         </div>

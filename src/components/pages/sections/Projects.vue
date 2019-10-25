@@ -20,12 +20,12 @@ export default {
             projects: {
                 en: [
                     {title: 'Randomizer', description: 'Randomizer is an App for social network VK which uses VK API and helps to organize contests in communities.', img: 'randomizer-logo.jpg', link: 'https://vk.com/app4938347'},
-                    {title: 'Company website', description: 'A corporate website for a company whose field of activity is monitoring of transport.', img: 'alliance-logo.png', link: 'https://alliance-telekom.ru'},
+                    {title: 'Provizor.me', description: 'Mobile App (iOS and Android) for pharmacists.', img: 'provizor-logo.png', link: 'https://provizor.me'},
                     {title: 'Personal website', description: 'This website is written and designed from scratch by myself. It\'s multilanguage and fully responsive.', img: 'personal-site.png', link: ''}
                 ],
                 ru: [
                     {title: 'Рандомайзер', description: 'Рандомайзер - это приложение для социальной сети ВКонтакте, использующее VK API, которое помогает проводить розыгрыши призов в сообществах.', img: 'randomizer-logo.jpg', link: 'https://vk.com/app4938347'},
-                    {title: 'Сайт компании', description: 'Корпоративный сайт для компании, занимающейся мониторингом транспорта.', img: 'alliance-logo.png', link: 'https://alliance-telekom.ru'},
+                    {title: 'Provizor.me', description: 'Мобильное приложение (iOS и Android) для провизоров.', img: 'provizor-logo.png', link: 'https://provizor.me'},
                     {title: 'Мой личный сайт', description: 'Сайт, на котором вы сейчас находитесь сделан мной с нуля. Он мультиязычный и полностью адаптивный.', img: 'personal-site.png', link: ''}
                 ]
             }
