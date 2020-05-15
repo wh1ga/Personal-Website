@@ -11,7 +11,9 @@
                         <ResumeContact icon="fas fa-phone">+7 (996) 940-41-45</ResumeContact>
                         <ResumeContact icon="fas fa-envelope">tim@shilov.dev</ResumeContact>
                         <ResumeContact icon="fab fa-skype">wh11ga</ResumeContact>
-                        <ResumeContact icon="fas fa-map-marker">Velikiy Novgorod, Russia (Open for relocation)</ResumeContact>
+                        <ResumeContact icon="fas fa-map-marker">
+                            <span v-lang.resume.location></span>
+                        </ResumeContact>
                         <ResumeContact icon="fab fa-github">https://github.com/TimShilov</ResumeContact>
                     </div>
 

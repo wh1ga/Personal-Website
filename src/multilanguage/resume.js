@@ -9,6 +9,7 @@ export default {
         },
         name: `Tim Shilov`,
         worktitle: `Software Engineer`,
+        location: `Velikiy Novgorod, Russia (Open for relocation)`,
         about: `I'm a software engineer with a strong interest in technology. Very interested in new ways and approaches for solving problems.`,
         experience: [
             {
@@ -17,22 +18,25 @@ export default {
                 dates: `2019-04 - present`,
                 highlights: [
                     "Full Stack Web Development. (PHP, MySQL, HTML5, JS ES6+, CSS3, jQuery)",
+                    "System administration (Apache, Nginx, MySQL)",
                     "Development of iOS and Android hybrid apps. (Java, Swift 5, WebView)",
                 ]
             },
             {
                 place: `Affluent, Inc., USA (remotely) - Aggregator of partner and advertising networks.`,
-                worktitle: `Lead Developer`,
+                worktitle: `Senior Developer, DevOps`,
                 dates: `2018-04 - present`,
                 highlights: [
                     "Full Stack Web Development. (Node.js, MySQL, HTML5, JS ES6+, SCSS, jQuery)",
-                    "Made full codebase security audition.",
-                    "Optimized frontend code. (Gulp, Babel, SCSS)",
-                    "Maintaining servers and solving deployment problems. (Google Cloud, DevOps)",
-                    "Made multiple architectural improvements refactoring big parts of codebase.",
-                    "Involved in making architectural decisions.",
-                    "Involved in interviewing developer candidates.",
-                    "Responsible for code reviews.",
+                    "Responsible for maintaining servers and solving deployment problems (Google Cloud, Docker, Kubernetes)",
+                    "Involved in making architectural decisions",
+                    "Involved in interviewing developer candidates",
+                    "Responsible for code reviews",
+                    "Made full codebase security audition",
+                    "Optimized frontend code workflows (Gulp, Babel, SCSS)",
+                    "Made multiple architectural improvements refactoring big parts of codebase",
+                    "Migrated all company deployments from VMs to Kubernetes",
+                    "Implemented CI/CD to optimize working processes",
                 ]
             },
             {
@@ -47,16 +51,6 @@ export default {
             },
             {
                 place: `OOO "Alliance Telekom", Velikiy Novgorod`,
-                worktitle: `System Administrator`,
-                dates: `2013-02 - 2013-10`,
-                highlights: [
-                    "Maintained the server with over 1000 connected devices and over 100 users.",
-                    "Diagnosed problems with hardware and software.",
-                    "Responsible for technical support of company employees.",
-                ]
-            },
-            {
-                place: `OOO "Alliance Telekom", Velikiy Novgorod`,
                 worktitle: `Technical Support Specialist`,
                 dates: `2014-08 - 2018-04`,
                 highlights: [
@@ -64,6 +58,16 @@ export default {
                     "Upgraded the specialized software used by the company.",
                     "Responsible for learning new hardware and software and training employees.",
                     "Responsible for managing teams of equipment installers.",
+                ]
+            },
+            {
+                place: `OOO "Alliance Telekom", Velikiy Novgorod`,
+                worktitle: `System Administrator`,
+                dates: `2013-02 - 2013-10`,
+                highlights: [
+                    "Maintained the server with over 1000 connected devices and over 100 users.",
+                    "Diagnosed problems with hardware and software.",
+                    "Responsible for technical support of company employees.",
                 ]
             },
         ],
@@ -100,6 +104,7 @@ export default {
         },
         name: `Тимофей Шилов`,
         worktitle: `Full Stack веб-разработчик`,
+        location: `Великий Новгород, Россия (Открыт для переезда)`,
         about: `Я программист с огромным интересом к технологиям. Интересуюсь в новыми способами и подходами к решению проблем.`,
         experience: [
             {
@@ -108,22 +113,25 @@ export default {
                 dates: `04.2019 - н.в.`,
                 highlights: [
                     "Full Stack разработка приложения. (PHP, MySQL, HTML5, JS ES6+, CSS3, jQuery)",
+                    "Администрирование сервера (Apache, Nginx, MySQL)",
                     "Разработка мобильных приложений для iOS и Android. (Java, Swift 5)",
                 ]
             },
             {
                 place: `Affluent, Inc., США (удалённо) - Аггрегатор данных с маркетинговых платформ.`,
-                worktitle: `Ведущий разработчик`,
+                worktitle: `Ведущий разработчик, DevOps`,
                 dates: `04.2018 - н.в.`,
                 highlights: [
-                    "Full Stack разработка приложения. (Node.js, MySQL, HTML5, JS ES6+, SCSS, jQuery)",
-                    "Провёл полное исследование безопасности кодовой базы.",
-                    "Оптимизировал клиентский код. (Gulp, Babel, SCSS)",
-                    "Поддержка серверов и решение серверных проблем. (Google Cloud, DevOps)",
-                    "Сделал множество архитектурных улучшений и отрефакторил множество участков кода.",
-                    "Учавстие в принятии решений по архитектуре приложений.",
-                    "Ответственный за интервью кандидатов в разработчики.",
-                    "Ответственный за код-ревью.",
+                    "Full Stack разработка (Node.js, MySQL, HTML5, JS ES6+, SCSS, jQuery)",
+                    "Ответственный за поддержка серверов и решение серверных проблем (Google Cloud, Docker, Kubernetes)",
+                    "Учавствую в принятии решений по архитектуре приложений",
+                    "Учавствую в интервью кандидатов в разработчики",
+                    "Ответственный за код-ревью",
+                    "Провёл полное исследование безопасности кодовой базы",
+                    "Оптимизировал работу с клиентским кодом (Gulp, Babel, SCSS)",
+                    "Сделал множество архитектурных улучшений и отрефакторил множество участков кода",
+                    "Перенёс все продукты компании с ВМ на Kubernetes",
+                    "Реализовал CI/CD для оптимизации рабочих процессов",
                 ]
             },
             {
@@ -138,16 +146,6 @@ export default {
             },
             {
                 place: `ООО "Альянс Телеком", Великий Новгород`,
-                worktitle: `Специалист по обслуживанию сервера`,
-                dates: `02.2013 - 10.2013`,
-                highlights: [
-                    "Поддерживал сервер с более 1000 подключенных устройств и 100 пользователей.",
-                    "Диагностировал проблемы с оборудованием и ПО.",
-                    "Ответственный за техническую поддержку сотрудников компании.",
-                ]
-            },
-            {
-                place: `ООО "Альянс Телеком", Великий Новгород`,
                 worktitle: `Специалист информационно-технической поддержки`,
                 dates: `08.2014 - 04.2018`,
                 highlights: [
@@ -155,6 +153,16 @@ export default {
                     "Доработал специализированное ПО, используемое в компании.",
                     "Ответственный за изучение нового оборудования и ПО и обучение сотрудников.",
                     "Ответственный за руководство группами установщиков оборудования."
+                ]
+            },
+            {
+                place: `ООО "Альянс Телеком", Великий Новгород`,
+                worktitle: `Специалист по обслуживанию сервера`,
+                dates: `02.2013 - 10.2013`,
+                highlights: [
+                    "Поддерживал сервер с более 1000 подключенных устройств и 100 пользователей.",
+                    "Диагностировал проблемы с оборудованием и ПО.",
+                    "Ответственный за техническую поддержку сотрудников компании.",
                 ]
             },
         ],
